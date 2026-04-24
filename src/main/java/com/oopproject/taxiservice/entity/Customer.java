@@ -4,6 +4,7 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String email;
+    private String address;
 
     public String getFirstName() {
         return firstName;
@@ -27,5 +28,13 @@ public class Customer {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
